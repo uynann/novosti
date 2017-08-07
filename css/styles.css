@@ -1,0 +1,141 @@
+i.icon {
+    font-size: 1.4em;
+}
+
+.container.main{
+    margin-top: 7em;
+    margin-bottom: 7em;
+}
+
+.ui.error.message  {
+    font-size: 0.9em;
+}
+
+.ui.menu .ui.dropdown .menu>.item>a {
+    margin: 0;
+    text-align: left;
+    font-size: 1em!important;
+    padding: .71428571em 1.14285714em!important;
+    background: 0 0!important;
+    color: rgba(0,0,0,.87)!important;
+    text-transform: none!important;
+    font-weight: 400!important;
+    box-shadow: none!important;
+    -webkit-transition: none!important;
+    transition: none!important;
+}
+
+.ui.inverted.menu .item>a:not(.ui) {
+    background: 0 0;
+    color: rgba(0,0,0,.87)!important;
+}
+
+.ui.post-header {
+    margin-bottom: 0;
+}
+
+.ui.attached {
+    margin-top: 15px;
+}
+
+.ui.attached > .description {
+    margin: 15px 0;
+    line-height: 1.7em;
+}
+
+
+.ui.items>.item>.image:not(.ui) > a > img {
+    width: 100%;
+}
+
+.action-buttons-mobile {
+    display: none;
+}
+
+.nav-btn {
+    display: none!important;
+}
+
+html {
+    position: relative;
+}
+
+.nav-categories-mobile {
+    position: fixed;
+    right: -180px;
+    top: 0;
+    width: 180px;
+    height: 100%;
+    background: #1b1c1d;
+    z-index: 103;
+}
+
+.nav-categories-mobile > a {
+    display: block;
+    color: rgba(255,255,255,.9);
+    padding: .6em 4em .6em 1.5em;
+    text-transform: none;
+    transition: background .1s ease,box-shadow .1s ease,color .1s ease;
+}
+
+.nav-categories-mobile > .nav-category-mobile:last-child {
+    border-top: 1px solid rgba(255,255,255,.15)!important;
+}
+
+.nav-categories-mobile > a:hover {
+    background: rgba(255,255,255,.15);
+    color: #fff!important;
+}
+
+.nav-overlay {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.45);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 102;
+    display: none;
+}
+
+.nav-btn {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .action-buttons {
+        display: none;
+    }
+
+    .action-buttons-mobile {
+        display: inline-block;
+    }
+
+    .nav-category {
+        display: none!important;
+    }
+
+    .nav-btn {
+        display: flex!important;
+    }
+
+    .nav-user {
+        display: none!important;
+    }
+
+    .nav-action {
+        display: none!important;
+    }
+
+    .nav-action-mobile {
+        display: block!important;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .ui.items>.item>.image, .ui.items>.item>.image>img {
+        width: 100%!important;
+        max-height: 100%!important;
+    }
+}
