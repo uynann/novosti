@@ -1,7 +1,9 @@
-* Clone the repository to the root directory of your web server
+## How to run this Application
 
-* Create a MySQL database called novosti and import file novosti.sql to this database
+# Clone the repository to the root directory of your web server
 
-* Modify file includes/header.php
+# Create a MySQL database called novosti and import file novosti.sql to this database
+
+# Modify file includes/header.php
 
 email: uynann@mail.ru, password: uynann1993
