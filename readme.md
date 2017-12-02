@@ -9,7 +9,7 @@
 * Modify file includes/header.php
     On line 3 define your path to website directory, for me I put it in root directory
 ```json
-define('ROOT_DIR', '/');
+define('ROOT_DIR', '/your-path/');
 ```
 
 * Login with:
