@@ -6,7 +6,7 @@
 
 * Modify database credentials in includes/db.php 
 
-* Modify file includes/header.php
+* Modify file includes/header.php:
     On line 3 define your path to website directory, for me I put it in root directory
 ```json
 define('ROOT_DIR', '/your-path/');
