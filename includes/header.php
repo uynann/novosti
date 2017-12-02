@@ -1,6 +1,6 @@
 <?php
 ob_start();
-define('ROOT_DIR', '/my-site-6/');
+define('ROOT_DIR', '/');
 define('CSS_DIR', ROOT_DIR . 'css/');
 define('JS_DIR', ROOT_DIR . 'js/');
 define('ADMIN_DIR', ROOT_DIR . 'admin/');
